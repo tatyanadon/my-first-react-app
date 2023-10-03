@@ -1,0 +1,26 @@
+.UsersList {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        &Item {
+            width: 100%;
+            max-width: 200px;
+
+            &Inner {
+
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            }
+        }
+    }
+}

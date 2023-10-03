@@ -1,0 +1,15 @@
+.UserForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    &_InputContainer {
+        max-width: 200px
+    }
+
+    &_Buttons {
+        display: flex;
+        gap: 1rem
+    }
+}
